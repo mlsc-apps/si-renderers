@@ -3,7 +3,7 @@ class TableRenderer {
     beginRender(data) {
         let rows = Object.keys(data);
         let html = '';
-        html += '<table style="border:1px solid">';
+        html += '<table class="table table-dark">';
         rows.forEach(row => {
             let columns = data[row];
             html += `<tr>`;
